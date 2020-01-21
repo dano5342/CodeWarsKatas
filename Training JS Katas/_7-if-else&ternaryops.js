@@ -14,6 +14,7 @@ Complete function saleHotdogs/SaleHotDogs, function accept 1 parameters:n, n is 
 +---------------+-------------+
 */
 //  My first thoughts
+
 function saleHotdogs(n) {
     var price = (n < 5) ? 100 : (n >= 5, n > 10) ? 95 : (n >= 10) ? 90;
     return price * n
