@@ -15,8 +15,8 @@ var v1 = 50,
     v5 = 2,
     v6 = 250
 
-const equal1 = () => v1 + v1
-const equal2 = () => v3 - v1
+const equal1 = () => v1 + v1 // What I'm Seeing here is the const setting the function name of equal1, 
+const equal2 = () => v3 - v1 // then calling the function to do this v1+v1 with the Fat Arrow assignment.
 const equal3 = () => v1 * v5
 const equal4 = () => v4 / v5
 const equal5 = () => v2 % v4
@@ -31,7 +31,6 @@ function equal1() {
     var b = v1;
     return a + b;
 }
-//Please refer to the example above to complete the following functions
 function equal2() {
     var a = v3;
     var b = v1;
