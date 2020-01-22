@@ -36,7 +36,7 @@ function howManydays(month) {
         case 2:
             days = 28;
             break;
-        case 4: // This is known as the fall down technique
+        case 4: // This is known as the fall through technique
         case 6:
         case 9:
         case 11:
